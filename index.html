@@ -9,23 +9,28 @@
 </head>
 <body>
     <main>
+        <div class="leftside">
 
-        <h1>Where's my Stonks?</h1>
+        <h2>Where's my Stonks?</h2>
         
-        <label for="initial-price" >Initial Price
+        <label for="initial-price" >
             <input type="number" id="initial-price" placeholder="Enter the initial price of the stocks"
             />
         </label>
-        <label for="stocks-quantity">Quantity of stocks
+        <label for="stocks-quantity">
             <input type="number" id="stocks-quantity" placeholder="Enter the number of stocks"
             />
         </label>
-        <label for="current-price">Current Price
+        <label for="current-price">
             <input type="number" id="current-price" placeholder="Enter the final price of stocks"
             />
         </label>
+        
         <button id="submit-btn">Calculate</button>
+    </div>
+        <div class="rightside">
         <div id="output-box"></div>
+        </div>
         <script src="app.js"></script>
     </main>
     
